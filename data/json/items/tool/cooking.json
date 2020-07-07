@@ -279,6 +279,33 @@
     ]
   },
   {
+    "id": "freeze_dryer",
+    "type": "TOOL",
+    "name": { "str": "freeze dryer" },
+    "description": "This is an electric freeze dryer. It's got a battery compartment for use when the power goes out and requires a vacuum pump to work properly. It's capable of preserving food for a very long time.",
+    "weight": "27669 g",
+    "volume": "125 L",
+    "price": 6000,
+    "price_postapoc": 2000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "plastic" ],
+    "symbol": ";",
+    "color": "blue",
+    "ammo": [ "battery" ],
+    "flags": [ "ALLOWS_REMOTE_USE" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      }
+    ]
+  },
+  {
     "id": "eggs_ferment",
     "type": "GENERIC",
     "category": "food",
